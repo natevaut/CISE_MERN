@@ -6,8 +6,9 @@
     "scripts": {
         "lint": "eslint .",
         "format": "prettier --write .",
-        "start-app": "node app.js && cd mern-client && npm start",
-        "start": "node app.js",
+        "start": "node app.js && cd mern-client && npm start",
+        "build": "cd mern-client && npm run build",
+        "app-start": "node app.js",
         "app": "nodemon app.js"
     },
     "author": "",

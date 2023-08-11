@@ -1,6 +1,5 @@
 name: Vercel Production Deployment
 env:
-  VERCEL_ORG_ID: natevaut
   VERCEL_PROJECT_ID: cise-mern
 on:
   push:
